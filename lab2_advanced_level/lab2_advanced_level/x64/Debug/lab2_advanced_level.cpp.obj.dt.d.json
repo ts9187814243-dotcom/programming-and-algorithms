@@ -1,7 +1,7 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "g:\\проекты\\lab2_advanced_level\\lab2_advanced_level\\lab2_advanced_level.cpp",
+        "Source": "g:\\проекты\\programming-and-algorithms\\lab2_advanced_level\\lab2_advanced_level\\lab2_advanced_level.cpp",
         "ProvidedModule": "",
         "Includes": [
             "g:\\программы\\visual studio\\vc\\tools\\msvc\\14.51.36231\\include\\iostream",

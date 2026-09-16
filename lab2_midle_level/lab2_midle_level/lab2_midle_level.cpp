@@ -4,7 +4,7 @@
 using namespace std;
 int main() {
     setlocale(LC_ALL, "Russian");
-    cout << "Периметр прямоугольнка" << '\n'; //Вывод строки
+    cout << "Среднее арифметическое и геометрическое чисел" << '\n'; //Вывод строки
     double a, b, arifm , geometr;  //Введение переменных a , b , arifm и geometr
     cout << "Введите число a: ";  //Вывод строки
     cin >> a;  //Ввод переменной a
