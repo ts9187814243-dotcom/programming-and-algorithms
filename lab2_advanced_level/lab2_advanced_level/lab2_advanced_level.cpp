@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     setlocale(LC_ALL, "Russian");
     cout << "Сумма и произведение цифр целого числа" << '\n'; //Вывод строки
-    long long sum, proiz, number, number1;  //Введение переменных number , number1 ,  sum, prois
+    long long sum, proiz, number, number1;  //Введение переменных number , number1 ,  sum, prois. Выбран long long для работы с большими числами
     sum = 0;
     proiz = 1;
     cout << "Введите число: ";  //Вывод строки
