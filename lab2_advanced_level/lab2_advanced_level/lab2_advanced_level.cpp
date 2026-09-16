@@ -23,7 +23,7 @@ int main() {
     while (number1 > 0) { //Пока цифры в числе не закончатся, цикл работает
         sum = sum + (number1 - (number1 / 10) * 10);
         proiz = proiz  * (number1 - (number1 / 10) * 10);
-        number1 = (number1 - (static_cast<long long>(number1) % 10)) /10;
+        number1 = (number1 - (static_cast<long long>(number1) % 10)) /10;  //Приводим к целочисленному типу, чятобы "%" работал
     }
     cout << "Сумма цифр введённого числа равна " << sum << endl; //Вывод среднего арифметического
     cout << "Произведение цифр введённого чисела равно " << proiz << endl; //Вывод среднего арифметического
