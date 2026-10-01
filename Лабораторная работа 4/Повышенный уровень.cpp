@@ -1,4 +1,5 @@
 #include <iostream>
+#include <limits>
 using namespace std;  //Подключение пространства имён std
 
 int main()
