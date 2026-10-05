@@ -10,8 +10,7 @@ int main()
     double a, b, h;
     cout << "Введите начало интервала a: ";
     cin >> a;
-    while (cin.fail
-    ()) {    //цикл работает пока есть ошибка в типе данных
+    while (cin.fail()) {    //цикл работает пока есть ошибка в типе данных
         cout << "Введите корректное число!\n ";
         cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(), '\n');  //Очистка буфера ввода
