@@ -1,5 +1,5 @@
 #include <iostream>
-#include <limits>
+#include <locale>
 #include <string>
 using namespace std;
 void reverseString(string& str) {  //Определение функции
